@@ -1,0 +1,62 @@
+h1{
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  font-family: cursive;
+font-size: 300%
+}
+
+
+h2{
+  font-family: verdana;
+  font-size: 300%;
+
+}
+
+.bg{
+  /* The image used */
+  background-image: url("bg.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
